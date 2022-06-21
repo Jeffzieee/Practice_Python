@@ -1,4 +1,3 @@
-#JEPHIN JOHN S6-CS2 Roll No 32
 #Python Tkinter GUI Game
 
 #importing dependancies
