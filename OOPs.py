@@ -1,3 +1,19 @@
+from abc import ABC, abstractmethod
+
+
+class Polygon(ABC):
+
+    @abstractmethod
+    def no_of_sides(self):
+        pass
+
+
+class Rectangle(Polygon):
+
+    def no_of_sides(self):
+        print("4 sides")
+
+
 class OperatorOverload(object):
 
     @staticmethod
@@ -12,5 +28,5 @@ class Second(OperatorOverload):
         print("hi")
 
 
-x = Second()
-x.hello()
+r = Rectangle()
+r.no_of_sides()
