@@ -12,6 +12,7 @@ game.resizable(False, False)
 game.title("Python Tkinter GUI Dice Roller Guessing Game")
 
 
+
 # function to load dieface image
 def load_dieface_img(face):
     if (face == 1):
